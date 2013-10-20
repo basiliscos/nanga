@@ -6,7 +6,7 @@ MODULE_AUTHOR=DAGOLDEN
 MODULE_VERSION=0.011
 inherit perl-module
 
-DESCRIPTION="Class::Tiny - Minimalist class construction"
+DESCRIPTION="Minimalist class construction"
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
