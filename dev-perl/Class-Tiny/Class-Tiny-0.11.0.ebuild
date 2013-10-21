@@ -10,7 +10,7 @@ DESCRIPTION="Minimalist class construction"
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
+IUSE="test"
 comment() { echo ''; }
 COMMON_DEPEND="
 	>=dev-lang/perl-5.10.0
@@ -18,8 +18,9 @@ COMMON_DEPEND="
 DEPEND="
 	${COMMON_DEPEND}
 	$(comment virtual/perl-Carp)
+	test? ( >=virtual/perl-Test-Simple-0.96 )
 "
 RDEPEND="
 	${COMMON_DEPEND}
 "
-SRC_TEST="do"
+SRC_TEST="do parallel"
