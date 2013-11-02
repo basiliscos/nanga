@@ -3,7 +3,7 @@
 <pkgmetadata>
 	<herd>perl</herd>
 	<upstream>
-		<remote-id type="cpan">Path-IsDev</remote-id>
-		<remote-id type="cpan-module">Path::IsDev</remote-id>
+		<remote-id type="cpan">Path-FindDev</remote-id>
+		<remote-id type="cpan-module">Path::FindDev</remote-id>
 	</upstream>
 </pkgmetadata>
