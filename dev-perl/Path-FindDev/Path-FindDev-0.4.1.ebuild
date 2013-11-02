@@ -13,10 +13,10 @@ KEYWORDS="~amd64"
 IUSE="test"
 COMMON_DEPEND="
 	>=dev-lang/perl-5.10.0
-	>=dev-perl/Class-Tiny-0.11.0
-	>=dev-perl/Path-IsDev-1.0.0
-	>=dev-perl/Path-Tiny-0.44.0
-	>=dev-perl/Sub-Exporter-0.984.0
+	>=dev-perl/Class-Tiny-0.10.0
+	>=dev-perl/Path-IsDev-0.2.2
+	>=dev-perl/Path-Tiny-0.38.0
+	dev-perl/Sub-Exporter
 "
 DEPEND="
 	${COMMON_DEPEND}

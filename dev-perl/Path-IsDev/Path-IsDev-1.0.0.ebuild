@@ -15,12 +15,12 @@ comment() { echo ''; }
 COMMON_DEPEND="
 	>=dev-lang/perl-5.10.0
 	$(comment virtual/perl-Carp)
-	>=dev-perl/Class-Tiny-0.11.0
-	>=dev-perl/File-HomeDir-1.0.0
-	>=dev-perl/Module-Runtime-0.13.0
-	>=dev-perl/Path-Tiny-0.12.0
-	>=dev-perl/Role-Tiny-1.2.5
-	>=dev-perl/Sub-Exporter-0.984.0
+	>=dev-perl/Class-Tiny-0.10.0
+	dev-perl/File-HomeDir
+	dev-perl/Module-Runtime
+	dev-perl/Path-Tiny
+	dev-perl/Role-Tiny
+	dev-perl/Sub-Exporter
 "
 DEPEND="
 	${COMMON_DEPEND}
